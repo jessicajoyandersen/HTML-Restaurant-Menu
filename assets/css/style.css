@@ -6,6 +6,25 @@ body {
     text-align: center;
 }
 
+.announcement{
+    display: inline;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+h4{
+    background-color: rgb(42, 29, 95);
+    font-size: 2em;
+    font-weight: 100;
+    letter-spacing: 5px;
+    color: rgb(227, 134, 134);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-style: solid;
+    border-width: 5px;
+    padding: 20px
+}
+
 h1,
 h2 {
     color: darkred;
@@ -52,6 +71,10 @@ nav a:hover {
     color: darkred;
 }
 
+.active-page{
+    background-color: white;
+}
+
 #banner {
     width: 100%;
     height: auto;
@@ -72,6 +95,7 @@ nav a:hover {
     font-size: 2em;
     padding: 20px;
     margin: 10px;
+    text-align: center;
 }
 
 table {
@@ -83,4 +107,23 @@ td,
 th {
     border: 1px solid black;
     padding: 5px;
+}
+
+.footer{
+    display: inline;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+h5{
+    background-color: beige;
+    font-size: 1.1em;
+    font-weight: 100;
+    letter-spacing: 3px;
+    color: darkred;
+    border-style: solid;
+    border-width: 2px;
+    border-color: green;
+    padding: 10px
 }
